@@ -1,5 +1,5 @@
-<h1 align="center">0x07-networking_basics</h1>
-<p align="center"> <img src = "https://www.skillonpage.com/wp-content/uploads/2017/04/network-devices.jpg" /></p>
+<h1 align="center">0x00-html</h1>
+<p align="center"> <img src = "https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2018/11/que-es-html.jpg" /></p>
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -15,109 +15,46 @@
 
 [![Twitter Wilder](https://img.shields.io/twitter/follow/WildsRincon?label=Wilder_Rincon&style=social)](https://twitter.com/WildsRincon)
 
-## Resources :notebook:
+## Concepts
+For this project, students are expected to look at this **concept:**
+[HTML - elements of a web page](https://intranet.hbtn.io/concepts/139)
 
-Read or watch:
+## Welcome!
+Welcome to the Web Stack specialization. The 3 first projects will give you all basics of the Web development: HTML, CSS and Developer tools.
 
-- [OSI Model](https://en.wikipedia.org/wiki/OSI_model)
-- [Different types of network](https://www.lifewire.com/lans-wans-and-other-area-networks-817376)
-- [LAN network](https://en.wikipedia.org/wiki/Local_area_network)
-- [WAN network](https://en.wikipedia.org/wiki/Wide_area_network)
-- [Internet](https://en.wikipedia.org/wiki/Internet)
-- [MAC address](https://whatismyipaddress.com/mac-address)
-- [What is an IP address](https://www.bleepingcomputer.com/tutorials/ip-addresses-explained/)
-- [Private and public address](https://www.iplocation.net/public-vs-private-ip-address)
-- [IPv4 and IPv6](https://www.webopedia.com/DidYouKnow/Internet/ipv6_ipv4_difference.html)
-- [Localhost](https://en.wikipedia.org/wiki/Internet)
-- [TCP and UDP](https://www.howtogeek.com/190014/htg-explains-what-is-the-difference-between-tcp-and-udp/)
-- [TCP/UDP ports List](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
-- [What is ping /ICMP](https://en.wikipedia.org/wiki/Ping_%28networking_utility%29)
-- [Positional parameters](https://wiki.bash-hackers.org/scripting/posparams)
+In this project, you will learn how to use HTML tags to structure a web page. No CSS, no styling - don’t worry, the final page will be “ugly” it’s normal, it’s not the purpose of this project.
 
-Man or help:
+Important note: details are important! lowercase vs uppercase / wrong letter… be careful!
 
-- netstat
-- ping
+## Resources
+**Read or watch:**
+
+- [HTML 5.2](https://intranet.hbtn.io/rltoken/0qrWxRjFnohd-DMZwIakuA)
+- [HTML: HyperText Markup Language | MDN](https://intranet.hbtn.io/rltoken/M-CcOLx8YG8znnc4qxSscg)
+- [HTML Reference - A free guide to all HTML elements and attributes](https://intranet.hbtn.io/rltoken/qonyw8QCI9Bf8jjiib9tug)
+- [Can I use… Support tables for HTML5, CSS3, etc](https://intranet.hbtn.io/rltoken/qonyw8QCI9Bf8jjiib9tug)
+- [HTML Cheat Sheet - WebsiteSetup](https://intranet.hbtn.io/rltoken/IL-IEL5JBB6FuDME5oZNRQ)
 
 ## Learning Objectives
-
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-### OSI Model
-
-- What it is
-- How many layers it has
-- How it is organized
-
-### What is a LAN
-
-- Typical usage
-- Typical geographical size
-
-### What is a WAN
-
-- Typical usage
-- Typical geographical size
-
-### What is the Internet
-
-- What is an IP address
-- What are the 2 types of IP address
-- What is localhost
-- What is a subnet
-- Why IPv6 was created
-
-### TCP/UDP
-
-- What are the 2 mainly used data transfer protocols for IP (transfer level on the OSI schema)
-- What is the main difference between TCP and UDP
-- What is a port
-- Memorize SSH, HTTP and HTTPS port numbers
-- What tool/protocol is often used to check if a device is connected to a network
-
+- Which guidelines to follow for HTML
+- How to create the skeleton of an HTML5 page
+- How to use semantic HTML tags to structure a web page
+- Which use cases to use div vs span
+- The semantic value’s of header, main, footer, article, nav, section, aside
+- How to use headings (and why it’s important to follow the hierarchical order)
+- How to make lists in HTML
+- The differences between medias (SVG, GIF, PNG, JPG)
+- How to structure data in a table
+- How to integrate a video in a webpage
+- How to integrate an audio file in a webpage
+- How to correctly structure an HTML page
+- How to embed external content
 ## Requirements
-
-### General :minidisc:
-
-- Allowed editors: vi, vim, emacs
-- All your Bash script files will be interpreted on Ubuntu 14.04 LTS
-- All your files should end with a new line
-- A README.md file, at the root of the folder of the project, is mandatory
-- All your Bash script files must be executable
-- Your Bash script must pass shellcheck without any error
-- The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
-- The second line of all your Bash scripts should be a comment explaining what is the script doing
- 
-## More Info
-
-The second line of all your Bash scripts should be a comment explaining what is the script doing
-
-For multiple choice question type tasks, just type the number of the correct answer in your answer file, add a new line for every new answer, example:
-
-What is the most important position in a software company?
-
-1. Project manager
-2. Backend developer
-3. System administrator
-
-```
-sylvain@ubuntu$ cat foo_answer_file
-3
-sylvain@ubuntu$
-```
-
-Source for question 1 here
-
-
-## Task :notebook:
-
-### Mandatory :heavy_check_mark:
-- 0. OSI model 
-- 1. Types of network
-- 2. MAC and IP address
-- 3. UDP and TCP
-- 4. TCP and UDP ports
-- 5. Is the host on the network
+- A README.md file at the root of the folder of the project is mandatory
+- Your code should be W3C compliant and validate with W3C-Validator
+- Techium will be the name of the company we will use across our webpages.
 
 ## Authors :busts_in_silhouette: 
 [@Wilder Rincón - Github](https://github.com/wildcox80)
