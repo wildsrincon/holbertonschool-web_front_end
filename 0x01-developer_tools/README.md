@@ -15,110 +15,38 @@
 
 [![Twitter Wilder](https://img.shields.io/twitter/follow/WildsRincon?label=Wilder_Rincon&style=social)](https://twitter.com/WildsRincon)
 
-## Resources :notebook:
+In this project, you will analyze this website [Clik Me](https://dev-tools.hbtn.info/).
+## Resources
+**Read or watch:**
 
-Read or watch:
-
-- [OSI Model](https://en.wikipedia.org/wiki/OSI_model)
-- [Different types of network](https://www.lifewire.com/lans-wans-and-other-area-networks-817376)
-- [LAN network](https://en.wikipedia.org/wiki/Local_area_network)
-- [WAN network](https://en.wikipedia.org/wiki/Wide_area_network)
-- [Internet](https://en.wikipedia.org/wiki/Internet)
-- [MAC address](https://whatismyipaddress.com/mac-address)
-- [What is an IP address](https://www.bleepingcomputer.com/tutorials/ip-addresses-explained/)
-- [Private and public address](https://www.iplocation.net/public-vs-private-ip-address)
-- [IPv4 and IPv6](https://www.webopedia.com/DidYouKnow/Internet/ipv6_ipv4_difference.html)
-- [Localhost](https://en.wikipedia.org/wiki/Internet)
-- [TCP and UDP](https://www.howtogeek.com/190014/htg-explains-what-is-the-difference-between-tcp-and-udp/)
-- [TCP/UDP ports List](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
-- [What is ping /ICMP](https://en.wikipedia.org/wiki/Ping_%28networking_utility%29)
-- [Positional parameters](https://wiki.bash-hackers.org/scripting/posparams)
-
-Man or help:
-
-- netstat
-- ping
+- [Chrome DevTools | Tools for Web Developers | Google Developers](https://intranet.hbtn.io/rltoken/82GJvQ5DlwfcYRNuHWOGFA)
+- [Introduction | Down and Dirty with Chrome Developer Tools](https://intranet.hbtn.io/rltoken/vNCYSZZ_A7JZ6F3Nv91KxA)
+- [Firefox Developer Tools | MDN](https://intranet.hbtn.io/rltoken/zZQbDVkJ3zeeaM-3zTf8Dw)
+- [Dev Tips - Developer Tips by Umar Hansa](https://intranet.hbtn.io/rltoken/soaR8Gq7OL4w48rZe2bakQ)
+- [Get Started With Viewing And Changing CSS | Tools for Web Developers](https://intranet.hbtn.io/rltoken/RA0zyadwvl6OmoVYMDp-3Q)
+- [Keeping it simple with the JavaScript console - LogRocket Blog](https://intranet.hbtn.io/rltoken/ePHot6ZwOgXG6Cynq3E_-g)
+- [Inspect Network Activity - Chrome DevTools 101](https://intranet.hbtn.io/rltoken/hv47k9yKKsyoG2AEL73Ajw)
 
 ## Learning Objectives
+At the end of this project, you are expected to be able to [explain to anyone](https://intranet.hbtn.io/rltoken/PUFTV0Q9cIIHWBw5WqcRCw), without the help of Google:
 
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-
-### OSI Model
-
-- What it is
-- How many layers it has
-- How it is organized
-
-### What is a LAN
-
-- Typical usage
-- Typical geographical size
-
-### What is a WAN
-
-- Typical usage
-- Typical geographical size
-
-### What is the Internet
-
-- What is an IP address
-- What are the 2 types of IP address
-- What is localhost
-- What is a subnet
-- Why IPv6 was created
-
-### TCP/UDP
-
-- What are the 2 mainly used data transfer protocols for IP (transfer level on the OSI schema)
-- What is the main difference between TCP and UDP
-- What is a port
-- Memorize SSH, HTTP and HTTPS port numbers
-- What tool/protocol is often used to check if a device is connected to a network
+General
+- What Developer Tools in your browser are
+- How to open the Developer Tools on Chrome, Firefox, Safari, and Edge.
+- How to use the elements tab to edit HTML and CSS
+- How to audit a page according to the tips suggested by Lighthouse
+- How to create and run snippets on a page
+- How to get information about files and server configurations
+- How to block requests
+- How to know how much JavaScript or CSS is used on a page
+- How to detect 404 issues
+- How to move elements on a webpage
 
 ## Requirements
-
-### General :minidisc:
-
-- Allowed editors: vi, vim, emacs
-- All your Bash script files will be interpreted on Ubuntu 14.04 LTS
-- All your files should end with a new line
+General
 - A README.md file, at the root of the folder of the project, is mandatory
-- All your Bash script files must be executable
-- Your Bash script must pass shellcheck without any error
-- The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
-- The second line of all your Bash scripts should be a comment explaining what is the script doing
- 
-## More Info
-
-The second line of all your Bash scripts should be a comment explaining what is the script doing
-
-For multiple choice question type tasks, just type the number of the correct answer in your answer file, add a new line for every new answer, example:
-
-What is the most important position in a software company?
-
-1. Project manager
-2. Backend developer
-3. System administrator
-
-```
-sylvain@ubuntu$ cat foo_answer_file
-3
-sylvain@ubuntu$
-```
-
-Source for question 1 here
-
-
-## Task :notebook:
-
-### Mandatory :heavy_check_mark:
-- 0. OSI model 
-- 1. Types of network
-- 2. MAC and IP address
-- 3. UDP and TCP
-- 4. TCP and UDP ports
-- 5. Is the host on the network
-
+- Use the newest version of Google Chrome browser (78.0.3904.70 or later).
+- Screenshots can be taken via the OS, not necessary via the DevTools. These screenshots are used to see how and where you are doing/playing with the DevTools.
 ## Authors :busts_in_silhouette: 
 [@Wilder Rincón - Github](https://github.com/wildcox80)
 
