@@ -1,0 +1,12 @@
+/* SCSS Stylesheet */
+
+@mixin marginSize($size) {
+  margin-left: $size;
+  margin-right: $size;
+}
+body {
+  @include marginSize(10px)
+}
+div {
+  @include marginSize(15px)
+}
