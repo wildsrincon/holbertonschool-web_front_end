@@ -1,0 +1,7 @@
+/* SCSS Stylesheet */
+
+@for $number from 1 to 5 {
+  .col-#{$number} {
+    width: 100% / $number;
+  }
+}
