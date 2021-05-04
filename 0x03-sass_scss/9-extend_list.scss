@@ -1,0 +1,18 @@
+/* SCSS Stylesheet */
+
+%textSize {
+  font-size: 12px;
+}
+.info {
+  @extend %textSize;
+}
+
+.success {
+  @extend %textSize;
+  color: #00FF00;
+}
+
+.warning {
+  @extend %textSize;
+  color: #FF0000;
+}
