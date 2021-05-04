@@ -1,0 +1,13 @@
+/* SCSS Stylesheet */
+$colorText: #3D3D3D;
+$colorPrimary: #6D6D6D;
+body {
+  color: $colorText;
+  background-color: $colorPrimary;
+}
+p {
+  color: $colorText;
+}
+h2 {
+  background-color: $colorPrimary;
+}
