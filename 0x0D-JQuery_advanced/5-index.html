@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Task 5</title>
+</head>
+
+<body>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script>
+        function createFamilyTree() {
+            $('body').append('<table></table>');
+            $('table').append('<thead></thead>', '<tbody></tbody>');
+            $('thead').append('<tr></tr>');
+            $('thead tr').append('<th></th>', '<th></th>');
+            $('th:first').text('Firstname');
+            $('th:last').text('Lastname');
+        }
+        createFamilyTree();
+
+        function addNewMember(firstName, lastName, position) {
+            $('tbody').append('<tr></tr>');
+            $('tbody tr:last').append('<td>' + firstName, '</td><td>' + lastName, '</td><td>(x)</td>');
+            $('tbody td:last').css('background-color', 'orange');
+            $('tbody td:last').css('cursor', 'pointer');
+            $('tbody td:last').click(function () {
+                $(this).parent().remove();
+            })
+        }
+
+        addNewMember('Guillaume', 'Salva');
+        addNewMember('Arielle', 'Snizt');
+        addNewMember('Fanette', 'Snizt');
+        addNewMember('Gerard', 'Snizt');
+        addNewMember('Victor', 'Salva');
+    </script>
+</body>
+
+</html>
