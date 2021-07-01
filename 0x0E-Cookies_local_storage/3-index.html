@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<div id='form'>
+		<h2>Login to the website</h2>
+		<input type="text" id="firstname">
+		<input type="text" id="email">
+		<button onclick="setCookies()">Log me in</button>
+	</div>
+	<script>
+		function setCookies() {
+			const firstname = document.getElementById('firstname').value;
+			const email = document.getElementById('email').value;
+			const d = new Date();
+			d.setTime(d.getTime() + (10 * 24 * 60 * 60 * 1000));
+			const expires = `expires=${d.toUTCString()}`;
+			document.cookie = `firstname=${firstname}; ${expires}; path=/`;
+			document.cookie = `email=${email}; ${expires}; path=/`;
+			showWelcomeMessageOrForm();
+		}
+		function getCookie(name) {
+			name = name + '=';
+			const decodedCookie = decodeURIComponent(document.cookie);
+			const ca = decodedCookie.split(';');
+			for (let i = 0; i < ca.length; i++) {
+				let c = ca[i];
+				while (c.charAt(0) == ' ') {
+					c = c.substring(1);
+				}
+				if (c.indexOf(name) == 0) {
+					return c.substring(name.length, c.length);
+				}
+			}
+			return '';
+		}
+
+		function showForm() {
+			const h1 = document.getElementsByTagName('h1')[0];
+			if (h1) {
+				h1.parentNode.removeChild(h1);
+			}
+			let form = document.getElementById('form');
+			form.style.display = 'block';
+		}
+
+		function hideForm() {
+			document.getElementById('form').style.display = 'none';
+		}
+
+		function deleteCookiesAndShowForm() {
+			document.cookie = 'firstname=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+			document.cookie = 'email=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+			showForm();
+		}
+
+		function showWelcomeMessageOrForm() {
+			const firstname = getCookie('firstname');
+			if (firstname) {
+				hideForm();
+				const h1 = document.createElement('h1');
+				const logout = document.createElement('a');
+				h1.innerText = `Welcome: ${firstname}`;
+				logout.innerText = '(logout)';
+				logout.style.fontWeight = 'normal';
+				logout.style.fontStyle = 'italic';
+				logout.style.marginLeft = '10px';
+				logout.onclick = function () {
+					deleteCookiesAndShowForm();
+				}
+				h1.append(logout);
+				document.body.append(h1);
+			} else {
+				showForm();
+			}
+		}
+
+		showWelcomeMessageOrForm();
+	</script>
+</body>
+
+</html>
